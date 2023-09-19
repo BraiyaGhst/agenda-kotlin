@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:background">@drawable/bg_container</item>
+        <item name="android:layout_marginEnd">50dp</item>
+        <item name="android:layout_marginStart">40dp</item>
+    </style>
+
+    <style name="campos">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">60dp</item>
+        <item name="android:layout_marginStart">60dp</item>
+        <item name="android:background">@drawable/bg_campo</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+
+    </style>
+
+    <style name="bg_tyson">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">80dp</item>
+        <item name="android:layout_marginStart">80dp</item>
+        <item name="android:background">@drawable/bg_tyson</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:color">@color/azul_transparente</item>
+
+    </style>
+
+    <style name="legenda">
+        <item name="android:textColor">@color/Laranja</item>
+        <item name="android:textStyle"/>
+    </style>
+
+</resources>

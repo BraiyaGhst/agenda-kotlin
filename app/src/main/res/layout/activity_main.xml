@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="329dp"
+        android:layout_height="268dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/bg_container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageFilterView"
+        tools:ignore="UnknownId" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#56C6BD"
+        android:text="@string/entrar"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        style="@style/campos"
+        android:autofillHints=""
+        android:drawableEnd="@drawable/baseline_account_circle_24"
+        android:ems="10"
+        android:hint="@string/cpf"
+        android:inputType="textPersonName"
+        android:textColorHint="#212121"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        tools:ignore="MissingConstraints,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        style="@style/campos"
+        android:layout_marginBottom="84dp"
+        android:autofillHints=""
+        android:drawableEnd="@drawable/baseline_password_24"
+        android:ems="10"
+        android:hint="@string/senha"
+        android:inputType="textPersonName"
+        android:textColorHint="#212121"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.736"
+        tools:ignore="MissingConstraints,VisualLintTextFieldSize" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="397dp"
+        android:layout_height="450dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteY="-18dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
